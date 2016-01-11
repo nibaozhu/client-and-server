@@ -36,7 +36,7 @@ char uri[1024] = "/";
 int usage(const char *argv0)
 {
 	printf("%s:%d:%s\n", __FILE__, __LINE__, __func__);
-	return printf("%s www.nibaozhu.cn 80 \"/project/index.html\"\n", argv0);
+	return printf("%s nibaozhu.cn 80 \"/\"\n", argv0);
 }
 
 int main(int argc, char **argv)
